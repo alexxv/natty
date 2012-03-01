@@ -71,8 +71,8 @@ date_time
   ;
   
 date_time_separator
-  : WHITE_SPACE (AT WHITE_SPACE)?
-  | COMMA WHITE_SPACE? (AT WHITE_SPACE)?
+  : WHITE_SPACE? (AT WHITE_SPACE?)?
+  | COMMA WHITE_SPACE? (AT WHITE_SPACE?)?
   | T
   ;
   
